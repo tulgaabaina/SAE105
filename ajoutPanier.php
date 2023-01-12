@@ -30,5 +30,5 @@ $_SESSION['panier'] = $panier; // WARNING : NE PAS EFFACER CETTE LIGNE
 echo "<pre>";print_r($panier);echo "</pre>";die(1);  // Voila l'état actuel du panier. Supprimer cette ligne dès que votre script marche
 
 
-header('Location:magasin.php'); // Je retourne voilr le panier
+// header('Location:magasin.php'); // Je retourne voilr le panier
 ?>

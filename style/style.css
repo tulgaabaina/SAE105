@@ -36,3 +36,6 @@
     font-weight: bold;
    
   }
+  .nav a:hover{
+    color: #27b4bc;
+  }
