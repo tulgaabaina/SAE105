@@ -23,13 +23,13 @@ include('helpers/magasinHelper.php'); // WARNING : NE PAS EFFACER CETTE LIGNE
     </div>
     <div class="nav">
         <div>
-            <a href="index.php">Accueil</a>
-            <a href="magasin.php">Le shop</a>
-            <a href="#contact">Nos magasins</a>
-            <a href="#about">Nous contacter</a>
+            <a class="a" href="index.php">Accueil</a>
+            <a class="a" href="magasin.php">Le shop</a>
+            <a class="a" href="#contact">Nos magasins</a>
+            <a class="a" href="#about">Nous contacter</a>
         </div>
         <div class="pan"><img class="panier" src="assets\site\pannier.svg" style="width:10; height:10" alt="">
-            <div style="margin-right: 10px;">Panier</div>
+            <a href="visuPanier.php" style="margin-right: 10px; text-decoration:none; color:#27b4bc">Panier</a>
         </div>
     </div>
 
