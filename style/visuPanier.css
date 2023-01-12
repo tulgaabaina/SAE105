@@ -1,0 +1,76 @@
+.logo {
+    display: flex;
+    justify-content: space-between;
+    margin: -10px;
+    background-color: rgb(32, 30, 30);
+    overflow: hidden;
+    align-items: space-between;
+  }
+  .logo p {
+    font-size: 30px;
+    color: green;
+    margin-top: 80px;
+    margin-right: 20px;
+  }
+  .top {
+    margin-left: 30px;
+    max-width: 15%;
+    height: auto;
+  }
+  .nav {
+      display: flex;
+      justify-content: space-between;
+      width: 100vw;
+      align-items: center;
+  }
+  .nav a {
+    background-color: brown;
+    color: white;
+    padding: 14px 26px;
+    float: left;
+    margin: 30px;
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  
+  .panier {
+      height: 60px;
+      margin-right: 20px;
+  }
+  .pan {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: #27b4bc;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+  }
+  .text{
+    color: dimgray;
+    display: flex; 
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+.container1{
+  width: 1000px;
+  border: 1px solid #136696;
+  border-radius: 10px;
+}
+hr{
+  border-top: 1px solid #136696;
+}
+.text2{
+  display: flex;
+ align-items: center;
+ font-family: Arial, Helvetica, sans-serif;
+}
+.carts{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -10,11 +10,12 @@ include('helpers/magasinHelper.php'); // WARNING : NE PAS EFFACER CETTE LIGNE
 ?>
 <!doctype html>
 <html lang="fr">
+    
 
 <head>
     <meta charset="utf-8">
     <title>The Computer Shop</title>
-    <link rel="stylesheet" href="style\magasin.css">
+    <link rel="stylesheet" href="style\magasin.css"/>
 </head>
 
 <body>
@@ -42,7 +43,7 @@ include('helpers/magasinHelper.php'); // WARNING : NE PAS EFFACER CETTE LIGNE
                 <img class="img" src="assets\produits\sneakers1.webp" alt="">
             </div>
             <div class="text">
-                <h4>Air Jordan 1 Mid Ice Blue</h4>
+                <a href="article.php" style="text-decoration: none; color:#5A5A5A; margin-bottom:15px; margin-top:15px; font-size:20px; font-weight:700; ">Air Jordan 1 Mid Ice Blue</a>
                 <div>La marque au Jumpman nous réserve son lot de surprises en ce début d'année, preuve en est cette
                     nouvelle Air Jordan 1 Mid Ice Blue. La silhouette mi-montante se distingue par ses nuances de bleu.
                     Elle affiche une base en cuir bleu

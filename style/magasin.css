@@ -22,7 +22,6 @@
     justify-content: space-between;
     width: 100vw;
     align-items: center;
-    
 }
 .nav a {
   background-color: brown;
@@ -38,11 +37,9 @@
 }
 
 .panier {
-
     height: 60px;
     margin-right: 20px;
 }
-
 .pan {
     display: flex;
     flex-direction: column;
@@ -52,10 +49,10 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
-
 .text {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   width: 700px;
   margin-left: 50px;
   font-family: Arial, Helvetica, sans-serif;
@@ -63,12 +60,9 @@
 .main {
   display: flex;
   border-radius: 5px;
-
   border: 1px solid black;
   height: 200px;
-
 }
-
 .container {
   display: flex;
   flex-direction: column;
@@ -82,7 +76,6 @@
   justify-content: center;
   margin-left: 10px;
 }
-
 .img {
   height: 150px;
   width: auto;
@@ -96,7 +89,6 @@
   width: 50px;
   padding: 8px;
 }
-
 .basket {
     display: flex;
     flex-direction: column;
@@ -104,10 +96,7 @@
     align-items: center;
     width: 200px;
     margin-left: -50px;
-    
-    
 }
-
 .price {
     /* position: absolute;
     left: 1350px;
